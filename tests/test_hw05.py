@@ -66,3 +66,4 @@ def test_no_diagonals():
     # diagonal S->T is blocked; must route around
     p = grid_shortest_path(lines)
     assert len(p) >= 3
+
